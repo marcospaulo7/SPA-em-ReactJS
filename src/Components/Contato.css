@@ -1,0 +1,32 @@
+    .contato {
+        display: flex;
+        gap: 1rem;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        height: 280px;
+    }
+    
+    .dados {
+        padding: 0px;
+        list-style: none
+    }
+    
+    .dados li {
+        font: 1.1rem;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-bottom: .8rem;
+    }
+    
+    img {
+        width: 150px;
+    }
+    
+    .dados li::before {
+        content: '';
+        display: inline-block;
+        width: 20px;
+        height: 2px;
+        background: #ddd;
+        margin-right: 10px;
+    }

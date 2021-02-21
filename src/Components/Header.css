@@ -1,0 +1,25 @@
+.active {
+    color: tomato
+}
+
+.link {
+    display: block;
+    background-color: #eee;
+    border-radius: 5px;
+    border: azure;
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.active,
+.link:hover {
+    background-color: #ddd;
+}
+
+.Header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
